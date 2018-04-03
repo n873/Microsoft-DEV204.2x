@@ -18,7 +18,7 @@ namespace Model
         {
             try
             {
-                if (teacher == null)
+                if (Teachers == null)
                     Teachers = new List<Teacher>();
                 Teachers.Add(teacher);
             }
@@ -29,7 +29,7 @@ namespace Model
         {
             try
             {
-                if (student == null)
+                if (Students == null)
                     Students = new List<Student>();
                 Students.Add(student);
             }
