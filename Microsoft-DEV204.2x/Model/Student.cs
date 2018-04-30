@@ -1,6 +1,6 @@
 ﻿namespace Model
 {
-    public class Student
+    public class Student : Person
     {
         public static int count;
 
@@ -8,5 +8,7 @@
         {
             count++;
         }
+
+        public void TakeTest() { }
     }
 }

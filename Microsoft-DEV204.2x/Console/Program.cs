@@ -18,6 +18,9 @@ namespace Console
             uProgram.Degree.Course.AddStudent(new Student());
             uProgram.Degree.Course.AddStudent(new Student());
 
+            Student myStudent = new Student();
+            Person myPerson = myStudent;
+
             System.Console.WriteLine($"{uProgram.Title}, {uProgram.Degree.Title}, {uProgram.Degree.Course.Title}, {uProgram.Degree.Course.Students.Count}");
         }
     }
